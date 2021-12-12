@@ -1,8 +1,9 @@
 const express = require('express');
 const app = express();
-const router = require('./src/rutas/rutas')
-const config = require('./config/config')
+const router = require('./rutas/rutas')
+const config = require('../config/config')
 const morgan = require('morgan');
+const { PORT } = require('../config/config'); 
 
 
 
